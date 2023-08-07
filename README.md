@@ -1,9 +1,8 @@
-# Green Boost Template: Minimal
+# cdk-nextjs-standalone Issue 111 Test
 
-## Deploy Infrastructure Locally
+## Reproduce
+1. `pnpm install`
 1. From the root of your monorepo, `cd infra`
-2. `pnpm deploy:local`
-
-## Clean Up Infrastructure Locally
-1. From the root of your monorepo, `cd infra`
-2. `pnpm destroy:local`
+1. `pnpm deploy:local`
+1. Visit {cloudfront-url}/camera
+1. See successful image
