@@ -1,0 +1,11 @@
+{
+  "name": "@myapp1/utils",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "dependencies": {
+    "eslint": "^8.44.0"
+  }
+}
